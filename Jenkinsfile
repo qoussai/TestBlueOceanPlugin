@@ -30,5 +30,11 @@ pipeline {
       }
     }
 
+    stage('push') {
+      steps {
+        echo 'my app now push online'
+      }
+    }
+
   }
 }
